@@ -7,4 +7,5 @@
 * [About the Data](#data)
 * [Data Preprocessing](#pp)
 * [Modeling](#model)
+* [Where my NLP pipeline fails?]#(fail)
 * [Credits](#credits)
