@@ -19,7 +19,8 @@ The finished product can be viewed [here](https://spamorham-1.herokuapp.com/)
 * [SPAM SMS Detector](https://spamorham-1.herokuapp.com/) is an **end-to-end Machine Learning NLP project** built using **Flask** and deployed to **Heroku Cloud Platform.** This app will help you predict whether the **SMS** that you recieved is **legit** (HAM) or **SPAM**. The **dataset** used for this project is taken from **Kaggle** has **5,574** records, **749 SPAM** and **4,825 HAM**, more info about the data in "[About the Data](#data)" section. 
 * Out of all the **ML models** used **Naive Bayes** seems to have preformed decent with **accuracy** of **99.01%** and **precision** of **98.56%**. Built various **pipelines** with **MultinomialNB classifier** and **Bag of Words** as well as **TFIDF** approach, taking different **classification metrices** (Accuracy, Precision, f1-score, roc-auc-score) into account, also **tuned the hyperparameters**.
 The final output looks something like this - 
-    <img src='https://raw.githubusercontent.com/animesharma3/SPAM-SMS-Detection/master/images/index.png'>.
+
+   <img src='https://raw.githubusercontent.com/animesharma3/SPAM-SMS-Detection/master/images/index.png'>.
 
 More on that in [this section](#model).
 * The final **pipeline** chosen has the following **performance report** -
