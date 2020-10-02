@@ -222,9 +222,9 @@ More on that in [this section](#model).
 * ### Choosing Best Pipeline - The Dilemma of Accuracy and Precision<a id='dilemma'></a>
 
     * **Why I am stressing on Precision?**<a id='prec'></a>
-     * Because our **goal** is to **reduce** the **False Postives**, which means **SMSs which are falsely predicted as SPAM**, otherwise the user might miss on some important SMSs and **maximizing precision** will help us in **minimizing false positive**, which is evident from the formula of precision, for which you can refer [this section](#math)
-    * **Pipeline 1** gives **best accuracy** and **decent precision**
-    * **Pipeline 3** gives **best precision** with **zero false positives** but **screws up other scores**.** 
+        * Because our **goal** is to **reduce** the **False Postives**, which means **SMSs which are falsely predicted as SPAM**, otherwise the user might miss on some important SMSs and **maximizing precision** will help us in **minimizing false positive**, which is evident from the formula of precision, for which you can refer [this section](#math)
+       * **Pipeline 1** gives **best accuracy** and **decent precision**
+       * **Pipeline 3** gives **best precision** with **zero false positives** but **screws up other scores**. 
 
 * Keeping all these things in mind, I have chosen **pipeline1** which uses **Naive Bayes Classifier** and **TF-IDF Word Vectorizer**
 
