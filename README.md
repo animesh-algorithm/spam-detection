@@ -219,10 +219,10 @@ More on that in [this section](#model).
 
     <img src='https://raw.githubusercontent.com/animesharma3/SPAM-SMS-Detection/master/images/index.png'>.
 
-* #### Choosing Best Pipeline - The Dilemma of Accuracy and Precision<a id='dilemma'></a>
+* ### Choosing Best Pipeline - The Dilemma of Accuracy and Precision<a id='dilemma'></a>
 
     * **Why I am stressing on Precision?**<a id='prec'></a>
-        * Because our **goal** is to **reduce** the **False Postives**, which means **SMSs which are falsely predicted as SPAM**, otherwise the user might miss on some important SMSs and **maximizing precision** will help us in **minimizing false positive**, which is evident from the formula of precision, for which you can refer [this section](#math)
+     * Because our **goal** is to **reduce** the **False Postives**, which means **SMSs which are falsely predicted as SPAM**, otherwise the user might miss on some important SMSs and **maximizing precision** will help us in **minimizing false positive**, which is evident from the formula of precision, for which you can refer [this section](#math)
     * **Pipeline 1** gives **best accuracy** and **decent precision**
     * **Pipeline 3** gives **best precision** with **zero false positives** but **screws up other scores**.** 
 
@@ -233,7 +233,7 @@ More on that in [this section](#model).
         <thead>    <tr style="text-align: right;">      <th></th>      <th>score</th>    </tr>  </thead>  <tbody>    <tr>      <th>accuracy</th>      <td>99.01</td>    </tr>    <tr>      <th>f1-score</th>      <td>96.14</td>    </tr>    <tr>      <th>precision</th>      <td>98.56</td>    </tr>    <tr>      <th>recall</th>      <td>93.83</td>    </tr>    <tr>      <th>roc auc score</th>      <td>96.81</td>    </tr>  </tbody></table>
 
 
-#### How Our Naive Bayes Model can be Fooled? <a id='fail'></a>
+### How Our Naive Bayes Model can be Fooled? <a id='fail'></a>
 I humbly **acknowledge** that my **NB model** can be **fooled** easily, if we stuff our **SMS** with **lots and lots of "hammy words"** (meaning the words that generally doesn't appear in SPAM messages [Wordcloud](#wordcloud)). 
 Therefore, the **Choice of words** can easily **fool** our **model**
 
