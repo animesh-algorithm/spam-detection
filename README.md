@@ -40,6 +40,7 @@ More on that in [this section](#model).
 ### Analysis of SPAM messages - 
 * **SPAM SMSs** tends to be bigger than **legit SMSs**, which is evident from the graph below.
 <img src='https://raw.githubusercontent.com/animesharma3/SPAM-SMS-Detection/master/images/download%20(1).png' width='500px'>
+
 * **Mean length** of **SPAM SMSs** is close to **140**, which is almost **double** the length of **Legitmate SMS** which is close to **71**.
 
 ## Credits <a id='credits'></a>
